@@ -1,0 +1,43 @@
+h1{
+    font-family: "Calibri Light";
+    margin-left: 3%;
+}
+input{
+    margin-left: 5%;
+    background-color: rgb(58, 45, 56); ;
+    color: #FFF;
+    border-style: none;
+    border-bottom: 2px crimson;
+    width: 60%;
+}
+.submitButton {
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 40%;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.submitButton:hover{
+    color:rgb(58, 45, 56);
+    background-color: rgba(190, 136, 181, 0.993) ;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+}
+@keyframes animacao {
+    from {
+        background-color: rgb(58, 45, 56);
+        color: rgba(190, 136, 181, 0.993) ;
+    }
+    to {
+        color:rgb(58, 45, 56);
+        background-color: rgba(190, 136, 181, 0.993) ;
+    }
+
+}
